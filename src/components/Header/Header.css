@@ -1,5 +1,6 @@
 :root {
     --main-color: rgb(0,0,0);
+    --haeder-bg-color: rgb(19, 19, 19);
     --black-shade1-bg:rgb(31,31,31);
     --black-shade2-bg: rgb(49,49,49);
     --yellow-color: rgba(245,197,24);
@@ -8,6 +9,7 @@
     --secondary-light-color:rgb(113, 113, 113);
   }
   
+.bg-dark-header{background: var(--haeder-bg-color) !important;}
 .dropdown-toggle.caret-off::after {display: none !important;}
 .search-bar i{position: absolute;right: 10px;top: 6px;}
 .search-bar input, .search-bar button{height: 32px;}
@@ -16,7 +18,8 @@
 .all-btn:hover{background: var(--secondary-color) !important;color: var(--main-color) !important;border-right: 1px solid rgba(0, 0, 0, 0.3) !important;}
 .border-right {border-right: 1px solid rgba(var(--secondary-color));}
 .dropdown-color-dark{background: var(--black-shade1-bg) !important;}
-.header-hover-bg li a{padding: 4px 15px !important;font-weight: 600 !important;font-size: 14px !important;}
+.header-hover-bg li a{padding: 4px 12px !important;font-weight: 600 !important;font-size: 14px !important;margin: 0 3px;}
 .header-hover-bg li a:hover{background:var(--black-shade2-bg) !important;color: var(--yellow-color) !important;}
+.header-hover-bg li .active{background:var(--black-shade2-bg) !important;color: var(--yellow-color) !important;}
 .dropdown-color-dark li a{color: var(--white-color) !important;}
 .dropdown-color-dark li a:hover{background: var(--secondary-light-color) !important;}

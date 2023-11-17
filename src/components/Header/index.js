@@ -2,11 +2,11 @@
 import React from 'react';
 import '../Header/Header.css';
 import { imagePath } from '../../helpers/ImagePath';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 const Header = () => {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark-header">
                 <div className="container">
                     <Link className="navbar-brand" to="/">
                         <img width='60' height='32'
@@ -18,13 +18,13 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center header-hover-bg">
                             <li className='nav-item'>
-                                <Link className="nav-link text-white" to="/movies/popular">Popular</Link>
+                                <NavLink className="nav-link text-white" to="/movies/popular" activeClassName="active">Popular</NavLink>
                             </li>
                             <li className='nav-item'>
-                                <Link className="nav-link text-white  d-flex text-white align-items-center" to="/movies/top_rated">TopRated</Link>
+                                <NavLink className="nav-link text-white  d-flex text-white align-items-center" to="/movies/top_rated" activeClassName="active">TopRated</NavLink>
                             </li>
                             <li className='nav-item'>
-                                <Link className="nav-link text-white  d-flex text-white align-items-center" to="/movies/upcoming">Upcoming</Link>
+                                <NavLink className="nav-link text-white  d-flex text-white align-items-center" to="/movies/upcoming" activeClassName="active">Upcoming</NavLink>
                             </li>
                         </ul>
                         <div className="input-group search-bar mx-3">
