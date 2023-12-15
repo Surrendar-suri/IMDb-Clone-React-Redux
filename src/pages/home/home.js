@@ -8,6 +8,7 @@ import MovieList from "../../components/MovieList";
 import UpNextCards from "../../components/UpNextCard";
 import { formatNum, roundOff } from "../../helpers/Utils";
 import {useSelector } from "react-redux";
+import MovieCrud from "../../components/MovieCrud";
 
 const Home = () => {
     const movieReduxStore  = useSelector((state) => state?.movie);
@@ -16,6 +17,7 @@ const Home = () => {
     return (
         <>
             <div className="container">
+                <MovieCrud />
                 <div className="row">
                     <div className="col-md-8  mt-3">
                         <div className="poster ">

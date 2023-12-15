@@ -1,0 +1,11 @@
+.imdb-movie-list{font-size: 1.6rem;font-weight: 600;color: #fff;}
+.imdbmovie_card{border: none !important;background: rgb(17, 15, 15) !important;}
+.movie-ul{border-radius: var(--ipt-cornerRadius, .25rem);padding: 0.6rem;margin: 0;}
+.movie-ul h5{margin: 0;color: #fff;text-align: center;font-style: italic;}
+.movie-li{padding: 10px 0px;display: flex;flex-wrap: wrap; align-items: center;border-bottom: 1px solid #2f2f2f;margin-bottom: 12px;}
+.list_item{display: flex;justify-content: space-between;align-items: center;font-family: Roboto,Helvetica,Arial,sans-serif;font-size: .875rem;letter-spacing: .01786em;flex-direction: row;flex-grow: 1;padding-top: .25rem;padding-bottom: .25rem;}
+.list_poster {display: flex;flex-shrink: 0;margin-right: 0.7rem;}
+.list_content{color: #fff;}
+.list_item_title{overflow: hidden;text-overflow: ellipsis;font-size: 1rem;padding-left: 0px;padding-right: 0.5rem;margin-bottom: 0px;margin-top: 0.5rem;white-space: break-spaces;font-weight: 600;}
+.list_item_detail {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;-moz-box-align: center;align-items: center;display: flex;flex-direction: row;margin-top: 0.5rem;width: 100%;}
+.list_item_detail span {margin-right: 0.75rem;width: fit-content;}

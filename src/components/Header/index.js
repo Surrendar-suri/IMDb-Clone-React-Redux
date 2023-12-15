@@ -18,13 +18,13 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center header-hover-bg">
                             <li className='nav-item'>
-                                <NavLink className="nav-link text-white" to="/movies/popular" activeClassName="active">Popular</NavLink>
+                                <NavLink className="nav-link text-white" to="/movies/popular" activeclassname="active">Popular</NavLink>
                             </li>
                             <li className='nav-item'>
-                                <NavLink className="nav-link text-white  d-flex text-white align-items-center" to="/movies/top_rated" activeClassName="active">TopRated</NavLink>
+                                <NavLink className="nav-link text-white  d-flex text-white align-items-center" to="/movies/top_rated" activeclassname="active">TopRated</NavLink>
                             </li>
                             <li className='nav-item'>
-                                <NavLink className="nav-link text-white  d-flex text-white align-items-center" to="/movies/upcoming" activeClassName="active">Upcoming</NavLink>
+                                <NavLink className="nav-link text-white  d-flex text-white align-items-center" to="/movies/upcoming" activeclassname="active">Upcoming</NavLink>
                             </li>
                         </ul>
                         <div className="input-group search-bar mx-3">
